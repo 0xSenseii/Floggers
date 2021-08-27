@@ -524,7 +524,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (67:2) {#each pogs as pog}
+    // (74:2) {#each pogs as pog}
     function create_each_block(ctx) {
     	let pogger;
     	let current;
@@ -561,7 +561,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(67:2) {#each pogs as pog}",
+    		source: "(74:2) {#each pogs as pog}",
     		ctx
     	});
 
@@ -576,11 +576,14 @@ var app = (function () {
     	let link1;
     	let link2;
     	let link3;
+    	let link4;
     	let t0;
     	let main;
     	let h1;
     	let t2;
     	let div;
+    	let t3;
+    	let a;
     	let current;
     	let each_value = /*pogs*/ ctx[0];
     	validate_each_argument(each_value);
@@ -603,6 +606,7 @@ var app = (function () {
     			link1 = element("link");
     			link2 = element("link");
     			link3 = element("link");
+    			link4 = element("link");
     			t0 = space();
     			main = element("main");
     			h1 = element("h1");
@@ -614,6 +618,8 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
+    			t3 = space();
+    			a = element("a");
     			attr_dev(meta0, "charset", "UTF-8");
     			add_location(meta0, file, 47, 1, 456);
     			attr_dev(meta1, "http-equiv", "X-UA-Compatible");
@@ -635,13 +641,25 @@ var app = (function () {
     			attr_dev(link3, "href", "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
     			attr_dev(link3, "rel", "stylesheet");
     			add_location(link3, file, 56, 1, 924);
+    			attr_dev(link4, "rel", "stylesheet");
+    			attr_dev(link4, "href", "https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css");
+    			attr_dev(link4, "integrity", "sha512-TktJbycEG5Van9KvrSHFUcYOKBroD7QCYkEe73HAutODCw9QTFcvF6fuxioYM1h6THNudK1GjVidazj6EslK4A==");
+    			attr_dev(link4, "crossorigin", "anonymous");
+    			attr_dev(link4, "referrerpolicy", "no-referrer");
+    			add_location(link4, file, 60, 1, 1032);
     			document.title = "Poggers Floor Prices";
     			attr_dev(h1, "class", "svelte-1jglbni");
-    			add_location(h1, file, 64, 1, 1092);
+    			add_location(h1, file, 71, 1, 1389);
     			attr_dev(div, "class", "cards svelte-1jglbni");
-    			add_location(div, file, 65, 1, 1122);
+    			add_location(div, file, 72, 1, 1419);
+    			attr_dev(a, "class", "github-fork-ribbon left-bottom");
+    			attr_dev(a, "href", "https://twitter.com/0xSensei");
+    			attr_dev(a, "target", "_blank");
+    			attr_dev(a, "data-ribbon", "🐦 Twitter 🐦");
+    			attr_dev(a, "title", "Fork me on GitHub");
+    			add_location(a, file, 77, 1, 1516);
     			attr_dev(main, "class", "svelte-1jglbni");
-    			add_location(main, file, 63, 0, 1084);
+    			add_location(main, file, 70, 0, 1381);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -654,6 +672,7 @@ var app = (function () {
     			append_dev(document.head, link1);
     			append_dev(document.head, link2);
     			append_dev(document.head, link3);
+    			append_dev(document.head, link4);
     			insert_dev(target, t0, anchor);
     			insert_dev(target, main, anchor);
     			append_dev(main, h1);
@@ -664,6 +683,8 @@ var app = (function () {
     				each_blocks[i].m(div, null);
     			}
 
+    			append_dev(main, t3);
+    			append_dev(main, a);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
@@ -721,6 +742,7 @@ var app = (function () {
     			detach_dev(link1);
     			detach_dev(link2);
     			detach_dev(link3);
+    			detach_dev(link4);
     			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(main);
     			destroy_each(each_blocks, detaching);

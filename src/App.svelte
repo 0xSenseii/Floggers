@@ -58,6 +58,13 @@
 		href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
 		rel="stylesheet"
 	/>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+		integrity="sha512-TktJbycEG5Van9KvrSHFUcYOKBroD7QCYkEe73HAutODCw9QTFcvF6fuxioYM1h6THNudK1GjVidazj6EslK4A=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
 	<title>Poggers Floor Prices</title>
 </svelte:head>
 
@@ -68,6 +75,13 @@
 			<Pogger poggername={pog.name} />
 		{/each}
 	</div>
+	<a
+		class="github-fork-ribbon left-bottom"
+		href="https://twitter.com/0xSensei"
+		target="_blank"
+		data-ribbon="🐦 Twitter 🐦"
+		title="Fork me on GitHub"
+	/>
 </main>
 
 <style>
