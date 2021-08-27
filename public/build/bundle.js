@@ -387,7 +387,7 @@ var app = (function () {
     			t0 = space();
     			p = element("p");
     			p.textContent = `${/*price*/ ctx[1]}Ξ`;
-    			if (!src_url_equal(img.src, img_src_value = "poggers/" + /*poggername*/ ctx[0] + ".png")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "imgs/" + /*poggername*/ ctx[0] + ".png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*poggername*/ ctx[0]);
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
@@ -395,7 +395,7 @@ var app = (function () {
     			add_location(img, file$1, 25, 8, 643);
     			attr_dev(a, "href", a_href_value = "https://opensea.io/collection/spacepoggers?search[sortAscending]=true&search[sortBy]=PRICE&search[stringTraits][0][name]=Tribe&search[stringTraits][0][values][0]=" + /*poggername*/ ctx[0]);
     			add_location(a, file$1, 22, 4, 436);
-    			add_location(p, file$1, 33, 4, 794);
+    			add_location(p, file$1, 33, 4, 791);
     			attr_dev(div, "class", "cards__item svelte-1mevzd4");
     			add_location(div, file$1, 21, 0, 406);
     		},
@@ -410,7 +410,7 @@ var app = (function () {
     			append_dev(div, p);
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*poggername*/ 1 && !src_url_equal(img.src, img_src_value = "poggers/" + /*poggername*/ ctx[0] + ".png")) {
+    			if (dirty & /*poggername*/ 1 && !src_url_equal(img.src, img_src_value = "imgs/" + /*poggername*/ ctx[0] + ".png")) {
     				attr_dev(img, "src", img_src_value);
     			}
 

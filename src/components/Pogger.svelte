@@ -24,7 +24,7 @@
         href="https://opensea.io/collection/spacepoggers?search[sortAscending]=true&search[sortBy]=PRICE&search[stringTraits][0][name]=Tribe&search[stringTraits][0][values][0]={poggername}"
     >
         <img
-            src="poggers/{poggername}.png"
+            src="imgs/{poggername}.png"
             alt={poggername}
             width="130"
             height="130"
