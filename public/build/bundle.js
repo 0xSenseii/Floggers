@@ -445,6 +445,7 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
+    		Zero: "0.495",
     		Bee: "0.11",
     		Cat: "0.09",
     		Dog: "0.09",
@@ -456,8 +457,7 @@ var app = (function () {
     		RedPanda: "0.1",
     		Penguin: "0.1",
     		Gorilla: "0.1",
-    		Turtle: "0.09",
-    		Zero: "0.495"
+    		Turtle: "0.09"
     	};
 
     	let { poggername } = $$props;
@@ -743,6 +743,7 @@ var app = (function () {
     	validate_slots('App', slots, []);
 
     	let pogs = [
+    		{ name: "Zero" },
     		{ name: "Bee" },
     		{ name: "Cat" },
     		{ name: "Dog" },
@@ -754,8 +755,7 @@ var app = (function () {
     		{ name: "Penguin" },
     		{ name: "Gorilla" },
     		{ name: "Turtle" },
-    		{ name: "Frog" },
-    		{ name: "Zero" }
+    		{ name: "Frog" }
     	];
 
     	const writable_props = [];

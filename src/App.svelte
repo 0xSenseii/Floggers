@@ -2,6 +2,9 @@
 	import Pogger from "./components/Pogger.svelte";
 	let pogs = [
 		{
+			name: "Zero",
+		},
+		{
 			name: "Bee",
 		},
 		{
@@ -37,9 +40,6 @@
 		},
 		{
 			name: "Frog",
-		},
-		{
-			name: "Zero",
 		},
 	];
 </script>
