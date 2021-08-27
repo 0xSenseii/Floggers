@@ -372,34 +372,40 @@ var app = (function () {
 
     function create_fragment$1(ctx) {
     	let div;
+    	let a;
     	let img;
     	let img_src_value;
+    	let a_href_value;
     	let t0;
     	let p;
 
     	const block = {
     		c: function create() {
     			div = element("div");
+    			a = element("a");
     			img = element("img");
     			t0 = space();
     			p = element("p");
-    			p.textContent = `${/*price*/ ctx[1]} ETH`;
+    			p.textContent = `${/*price*/ ctx[1]}Ξ`;
     			if (!src_url_equal(img.src, img_src_value = "poggers/" + /*poggername*/ ctx[0] + ".png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*poggername*/ ctx[0]);
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
-    			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$1, 22, 4, 428);
-    			add_location(p, file$1, 29, 4, 550);
-    			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$1, 21, 0, 398);
+    			attr_dev(img, "class", "svelte-1mevzd4");
+    			add_location(img, file$1, 25, 8, 643);
+    			attr_dev(a, "href", a_href_value = "https://opensea.io/collection/spacepoggers?search[sortAscending]=true&search[sortBy]=PRICE&search[stringTraits][0][name]=Tribe&search[stringTraits][0][values][0]=" + /*poggername*/ ctx[0]);
+    			add_location(a, file$1, 22, 4, 436);
+    			add_location(p, file$1, 33, 4, 794);
+    			attr_dev(div, "class", "cards__item svelte-1mevzd4");
+    			add_location(div, file$1, 21, 0, 406);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
-    			append_dev(div, img);
+    			append_dev(div, a);
+    			append_dev(a, img);
     			append_dev(div, t0);
     			append_dev(div, p);
     		},
@@ -410,6 +416,10 @@ var app = (function () {
 
     			if (dirty & /*poggername*/ 1) {
     				attr_dev(img, "alt", /*poggername*/ ctx[0]);
+    			}
+
+    			if (dirty & /*poggername*/ 1 && a_href_value !== (a_href_value = "https://opensea.io/collection/spacepoggers?search[sortAscending]=true&search[sortBy]=PRICE&search[stringTraits][0][name]=Tribe&search[stringTraits][0][values][0]=" + /*poggername*/ ctx[0])) {
+    				attr_dev(a, "href", a_href_value);
     			}
     		},
     		i: noop,
@@ -435,19 +445,19 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
-    		zero: "0.495",
-    		bzzz: "0.11",
-    		cato: "0.09",
-    		dogo: "0.09",
-    		eli: "0.1",
-    		frogo: "0.1",
-    		llamo: "0.1",
-    		mouse: "0.09",
-    		owlo: "0.1",
-    		pando: "0.1",
-    		pengu: "0.1",
-    		rilla: "0.1",
-    		turto: "0.09"
+    		Zero: "0.495",
+    		Bee: "0.11",
+    		Cat: "0.09",
+    		Dog: "0.09",
+    		Elephant: "0.1",
+    		Frog: "0.1",
+    		Llama: "0.1",
+    		Mouse: "0.09",
+    		Owl: "0.1",
+    		RedPanda: "0.1",
+    		Penguin: "0.1",
+    		Gorilla: "0.1",
+    		Turtle: "0.09"
     	};
 
     	let { poggername } = $$props;
@@ -514,7 +524,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (56:2) {#each pogs as pog}
+    // (66:2) {#each pogs as pog}
     function create_each_block(ctx) {
     	let pogger;
     	let current;
@@ -551,7 +561,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(56:2) {#each pogs as pog}",
+    		source: "(66:2) {#each pogs as pog}",
     		ctx
     	});
 
@@ -562,6 +572,10 @@ var app = (function () {
     	let meta0;
     	let meta1;
     	let meta2;
+    	let link0;
+    	let link1;
+    	let link2;
+    	let link3;
     	let t0;
     	let main;
     	let h1;
@@ -585,10 +599,14 @@ var app = (function () {
     			meta0 = element("meta");
     			meta1 = element("meta");
     			meta2 = element("meta");
+    			link0 = element("link");
+    			link1 = element("link");
+    			link2 = element("link");
+    			link3 = element("link");
     			t0 = space();
     			main = element("main");
     			h1 = element("h1");
-    			h1.textContent = "💰 Poggers Floor 💰";
+    			h1.textContent = "Pogger Floor Prices";
     			t2 = space();
     			div = element("div");
 
@@ -597,20 +615,33 @@ var app = (function () {
     			}
 
     			attr_dev(meta0, "charset", "UTF-8");
-    			add_location(meta0, file, 46, 1, 447);
+    			add_location(meta0, file, 46, 1, 455);
     			attr_dev(meta1, "http-equiv", "X-UA-Compatible");
     			attr_dev(meta1, "content", "IE=edge");
-    			add_location(meta1, file, 47, 1, 473);
+    			add_location(meta1, file, 47, 1, 481);
     			attr_dev(meta2, "name", "viewport");
     			attr_dev(meta2, "content", "width=device-width, initial-scale=1.0");
-    			add_location(meta2, file, 48, 1, 530);
+    			add_location(meta2, file, 48, 1, 538);
+    			attr_dev(link0, "rel", "icon");
+    			attr_dev(link0, "href", "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>");
+    			add_location(link0, file, 49, 1, 612);
+    			attr_dev(link1, "rel", "preconnect");
+    			attr_dev(link1, "href", "https://fonts.googleapis.com");
+    			add_location(link1, file, 53, 1, 788);
+    			attr_dev(link2, "rel", "preconnect");
+    			attr_dev(link2, "href", "https://fonts.gstatic.com");
+    			attr_dev(link2, "crossorigin", "");
+    			add_location(link2, file, 54, 1, 851);
+    			attr_dev(link3, "href", "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+    			attr_dev(link3, "rel", "stylesheet");
+    			add_location(link3, file, 55, 1, 923);
     			document.title = "Poggers Floor Prices";
-    			attr_dev(h1, "class", "svelte-rpclfg");
-    			add_location(h1, file, 53, 1, 664);
-    			attr_dev(div, "class", "cards svelte-rpclfg");
-    			add_location(div, file, 54, 1, 694);
-    			attr_dev(main, "class", "svelte-rpclfg");
-    			add_location(main, file, 52, 0, 656);
+    			attr_dev(h1, "class", "svelte-lyxcu9");
+    			add_location(h1, file, 63, 1, 1091);
+    			attr_dev(div, "class", "cards svelte-lyxcu9");
+    			add_location(div, file, 64, 1, 1121);
+    			attr_dev(main, "class", "svelte-lyxcu9");
+    			add_location(main, file, 62, 0, 1083);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -619,6 +650,10 @@ var app = (function () {
     			append_dev(document.head, meta0);
     			append_dev(document.head, meta1);
     			append_dev(document.head, meta2);
+    			append_dev(document.head, link0);
+    			append_dev(document.head, link1);
+    			append_dev(document.head, link2);
+    			append_dev(document.head, link3);
     			insert_dev(target, t0, anchor);
     			insert_dev(target, main, anchor);
     			append_dev(main, h1);
@@ -682,6 +717,10 @@ var app = (function () {
     			detach_dev(meta0);
     			detach_dev(meta1);
     			detach_dev(meta2);
+    			detach_dev(link0);
+    			detach_dev(link1);
+    			detach_dev(link2);
+    			detach_dev(link3);
     			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(main);
     			destroy_each(each_blocks, detaching);
@@ -704,19 +743,19 @@ var app = (function () {
     	validate_slots('App', slots, []);
 
     	let pogs = [
-    		{ name: "zero" },
-    		{ name: "bzzz" },
-    		{ name: "cato" },
-    		{ name: "dogo" },
-    		{ name: "eli" },
-    		{ name: "frogo" },
-    		{ name: "llamo" },
-    		{ name: "mouse" },
-    		{ name: "owlo" },
-    		{ name: "pando" },
-    		{ name: "pengu" },
-    		{ name: "rilla" },
-    		{ name: "turto" }
+    		{ name: "Zero" },
+    		{ name: "Bee" },
+    		{ name: "Cat" },
+    		{ name: "Dog" },
+    		{ name: "Elephant" },
+    		{ name: "Frog" },
+    		{ name: "Llama" },
+    		{ name: "Mouse" },
+    		{ name: "Owl" },
+    		{ name: "RedPanda" },
+    		{ name: "Penguin" },
+    		{ name: "Gorilla" },
+    		{ name: "Turtle" }
     	];
 
     	const writable_props = [];

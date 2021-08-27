@@ -2,43 +2,43 @@
 	import Pogger from "./components/Pogger.svelte";
 	let pogs = [
 		{
-			name: "zero",
+			name: "Zero",
 		},
 		{
-			name: "bzzz",
+			name: "Bee",
 		},
 		{
-			name: "cato",
+			name: "Cat",
 		},
 		{
-			name: "dogo",
+			name: "Dog",
 		},
 		{
-			name: "eli",
+			name: "Elephant",
 		},
 		{
-			name: "frogo",
+			name: "Frog",
 		},
 		{
-			name: "llamo",
+			name: "Llama",
 		},
 		{
-			name: "mouse",
+			name: "Mouse",
 		},
 		{
-			name: "owlo",
+			name: "Owl",
 		},
 		{
-			name: "pando",
+			name: "RedPanda",
 		},
 		{
-			name: "pengu",
+			name: "Penguin",
 		},
 		{
-			name: "rilla",
+			name: "Gorilla",
 		},
 		{
-			name: "turto",
+			name: "Turtle",
 		},
 	];
 </script>
@@ -47,11 +47,21 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link
+		rel="icon"
+		href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>"
+	/>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+		rel="stylesheet"
+	/>
 	<title>Poggers Floor Prices</title>
 </svelte:head>
 
 <main>
-	<h1>💰 Poggers Floor 💰</h1>
+	<h1>Pogger Floor Prices</h1>
 	<div class="cards">
 		{#each pogs as pog}
 			<Pogger poggername={pog.name} />
@@ -61,13 +71,14 @@
 
 <style>
 	:global(body) {
+		font-family: "Press Start 2P", cursive;
 		text-align: center;
+		font-size: 12px;
 		color: beige;
 		background: #111;
 	}
 
 	h1 {
-		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 400;
 		color: #ffcf22;
