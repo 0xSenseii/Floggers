@@ -6,7 +6,7 @@
         Dog: "0.095",
         Elephant: "0.09",
         Frog: "0.089",
-        Llama: "0.99",
+        Llama: "0.099",
         Mouse: "0.09",
         Owl: "0.099",
         RedPanda: "0.09",
