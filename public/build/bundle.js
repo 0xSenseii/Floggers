@@ -445,7 +445,6 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
-    		Zero: "0.495",
     		Bee: "0.11",
     		Cat: "0.09",
     		Dog: "0.09",
@@ -457,7 +456,8 @@ var app = (function () {
     		RedPanda: "0.1",
     		Penguin: "0.1",
     		Gorilla: "0.1",
-    		Turtle: "0.09"
+    		Turtle: "0.09",
+    		Zero: "0.495"
     	};
 
     	let { poggername } = $$props;
@@ -524,7 +524,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (66:2) {#each pogs as pog}
+    // (67:2) {#each pogs as pog}
     function create_each_block(ctx) {
     	let pogger;
     	let current;
@@ -561,7 +561,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(66:2) {#each pogs as pog}",
+    		source: "(67:2) {#each pogs as pog}",
     		ctx
     	});
 
@@ -615,33 +615,33 @@ var app = (function () {
     			}
 
     			attr_dev(meta0, "charset", "UTF-8");
-    			add_location(meta0, file, 46, 1, 455);
+    			add_location(meta0, file, 47, 1, 456);
     			attr_dev(meta1, "http-equiv", "X-UA-Compatible");
     			attr_dev(meta1, "content", "IE=edge");
-    			add_location(meta1, file, 47, 1, 481);
+    			add_location(meta1, file, 48, 1, 482);
     			attr_dev(meta2, "name", "viewport");
     			attr_dev(meta2, "content", "width=device-width, initial-scale=1.0");
-    			add_location(meta2, file, 48, 1, 538);
+    			add_location(meta2, file, 49, 1, 539);
     			attr_dev(link0, "rel", "icon");
     			attr_dev(link0, "href", "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>");
-    			add_location(link0, file, 49, 1, 612);
+    			add_location(link0, file, 50, 1, 613);
     			attr_dev(link1, "rel", "preconnect");
     			attr_dev(link1, "href", "https://fonts.googleapis.com");
-    			add_location(link1, file, 53, 1, 788);
+    			add_location(link1, file, 54, 1, 789);
     			attr_dev(link2, "rel", "preconnect");
     			attr_dev(link2, "href", "https://fonts.gstatic.com");
     			attr_dev(link2, "crossorigin", "");
-    			add_location(link2, file, 54, 1, 851);
+    			add_location(link2, file, 55, 1, 852);
     			attr_dev(link3, "href", "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
     			attr_dev(link3, "rel", "stylesheet");
-    			add_location(link3, file, 55, 1, 923);
+    			add_location(link3, file, 56, 1, 924);
     			document.title = "Poggers Floor Prices";
     			attr_dev(h1, "class", "svelte-lyxcu9");
-    			add_location(h1, file, 63, 1, 1091);
+    			add_location(h1, file, 64, 1, 1092);
     			attr_dev(div, "class", "cards svelte-lyxcu9");
-    			add_location(div, file, 64, 1, 1121);
+    			add_location(div, file, 65, 1, 1122);
     			attr_dev(main, "class", "svelte-lyxcu9");
-    			add_location(main, file, 62, 0, 1083);
+    			add_location(main, file, 63, 0, 1084);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -743,19 +743,19 @@ var app = (function () {
     	validate_slots('App', slots, []);
 
     	let pogs = [
-    		{ name: "Zero" },
     		{ name: "Bee" },
     		{ name: "Cat" },
     		{ name: "Dog" },
     		{ name: "Elephant" },
-    		{ name: "Frog" },
     		{ name: "Llama" },
     		{ name: "Mouse" },
     		{ name: "Owl" },
     		{ name: "RedPanda" },
     		{ name: "Penguin" },
     		{ name: "Gorilla" },
-    		{ name: "Turtle" }
+    		{ name: "Turtle" },
+    		{ name: "Frog" },
+    		{ name: "Zero" }
     	];
 
     	const writable_props = [];
