@@ -80,6 +80,8 @@
 	}
 
 	h1 {
+		margin-top: 75px;
+		margin-bottom: 100px;
 		font-size: 4em;
 		font-weight: 400;
 		color: #ffcf22;

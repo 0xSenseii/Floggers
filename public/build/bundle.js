@@ -636,11 +636,11 @@ var app = (function () {
     			attr_dev(link3, "rel", "stylesheet");
     			add_location(link3, file, 56, 1, 924);
     			document.title = "Poggers Floor Prices";
-    			attr_dev(h1, "class", "svelte-lyxcu9");
+    			attr_dev(h1, "class", "svelte-1jglbni");
     			add_location(h1, file, 64, 1, 1092);
-    			attr_dev(div, "class", "cards svelte-lyxcu9");
+    			attr_dev(div, "class", "cards svelte-1jglbni");
     			add_location(div, file, 65, 1, 1122);
-    			attr_dev(main, "class", "svelte-lyxcu9");
+    			attr_dev(main, "class", "svelte-1jglbni");
     			add_location(main, file, 63, 0, 1084);
     		},
     		l: function claim(nodes) {
