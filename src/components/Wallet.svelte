@@ -3,7 +3,7 @@
 
 <div class="wallet">
     <p>🥲 Donations welcomed 🥲</p>
-    <span>0x4d86224cB1851A5D5df7acBD438201C9BaF9d765</span>
+    <span>0x92c20F715472AAd2c7fc7284F0C2e4fAd39e28Af</span>
 </div>
 
 <style>
