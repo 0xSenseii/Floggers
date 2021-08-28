@@ -2,6 +2,7 @@
 	import Pogger from "./components/Pogger.svelte";
 	import Head from "./components/Head.svelte";
 	import Legis from "./components/Legis.svelte";
+	import Wallet from "./components/Wallet.svelte";
 	let pogs = [
 		{
 			name: "Zero",
@@ -121,6 +122,8 @@
 		>
 	</div>
 
+	<Wallet />
+
 	<a
 		class="github-fork-ribbon left-bottom"
 		href="https://twitter.com/0xSensei"
@@ -157,7 +160,7 @@
 		padding-right: 2em;
 	}
 	.category {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	a {
 		text-decoration: underline;
