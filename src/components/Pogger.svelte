@@ -13,18 +13,6 @@
         Penguin: "0.1",
         Gorilla: "0.1",
         Turtle: "0.092",
-        AlienCat: "10",
-        BubblegumGorilla: "10",
-        DiamondOwl: "420.69",
-        DriftwoodTurtle: "19.999",
-        FlamingRedPanda: "7.5",
-        GoldenFrog: "15",
-        IcePenguin: "4.2069",
-        Jellophant: "18",
-        MarbleMouse: "5.55",
-        RainbowLlama: "20",
-        SilverBee: "14.99",
-        ZombieDog: "5555.55",
     };
 
     export let poggername;
@@ -45,8 +33,6 @@
 <style>
     .cards__item {
         margin: 2px;
-        /* background: #ffcf22;
-        border-radius: 3%; */
     }
     img {
         border-radius: 3%;
