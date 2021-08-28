@@ -4,14 +4,14 @@
         BubblegumGorilla: "10",
         DiamondOwl: "420.69",
         DriftwoodTurtle: "19.999",
-        FlamingRedPanda: "7.5",
+        FlamingRedPanda: "6.9",
         GoldenFrog: "15",
         IcePenguin: "4.2069",
         Jellophant: "18",
         MarbleMouse: "5.55",
         RainbowLlama: "20",
         SilverBee: "14.99",
-        ZombieDog: "5555.55",
+        ZombieDog: "5",
     };
 
     export let legiName;

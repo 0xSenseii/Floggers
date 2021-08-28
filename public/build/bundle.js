@@ -679,10 +679,10 @@ var app = (function () {
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
     			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$1, 21, 4, 488);
-    			add_location(p, file$1, 22, 4, 566);
+    			add_location(img, file$1, 21, 4, 482);
+    			add_location(p, file$1, 22, 4, 560);
     			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$1, 20, 0, 458);
+    			add_location(div, file$1, 20, 0, 452);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -729,14 +729,14 @@ var app = (function () {
     		BubblegumGorilla: "10",
     		DiamondOwl: "420.69",
     		DriftwoodTurtle: "19.999",
-    		FlamingRedPanda: "7.5",
+    		FlamingRedPanda: "6.9",
     		GoldenFrog: "15",
     		IcePenguin: "4.2069",
     		Jellophant: "18",
     		MarbleMouse: "5.55",
     		RainbowLlama: "20",
     		SilverBee: "14.99",
-    		ZombieDog: "5555.55"
+    		ZombieDog: "5"
     	};
 
     	let { legiName } = $$props;
