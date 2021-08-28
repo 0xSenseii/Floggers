@@ -1,5 +1,4 @@
 <script>
-	import Category from "./components/Category.svelte";
 	import Pogger from "./components/Pogger.svelte";
 	import Head from "./components/Head.svelte";
 	import Legis from "./components/Legis.svelte";
