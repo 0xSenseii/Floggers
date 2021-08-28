@@ -42,6 +42,49 @@
 			name: "Frog",
 		},
 	];
+	const legis = [
+		{
+			name: "AlienCat",
+		},
+		{
+			name: "BubblegumGorilla",
+		},
+		{
+			name: "DiamondOwl",
+		},
+		{
+			name: "DriftwoodTurtle",
+		},
+		{
+			name: "FlamingRedPanda",
+		},
+		{
+			name: "GoldenFrog",
+		},
+		{
+			name: "IcePenguin",
+		},
+		{
+			name: "Jellophant",
+		},
+		{
+			name: "MarbleMouse",
+		},
+		{
+			name: "RainbowLlama",
+		},
+		{
+			name: "SilverBee",
+		},
+		{
+			name: "ZombieDog",
+		},
+	];
+	let legistab = false;
+	function showLegis() {
+		legistab = true;
+	}
+	funciton;
 </script>
 
 <svelte:head>
@@ -71,9 +114,19 @@
 <main>
 	<h1>Pogger Floor Prices</h1>
 	<div class="cards">
-		{#each pogs as pog}
-			<Pogger poggername={pog.name} />
-		{/each}
+		{#if !legistab}
+			{#each pogs as pog}
+				<Pogger poggername={pog.name} />
+			{/each}
+		{:else}
+			{#each legis as pog}
+				<Pogger poggername={pog.name} />
+			{/each}
+		{/if}
+	</div>
+	<div class="category">
+		<div class="normies">Normies</div>
+		<div class="legis" on:click={showLegis()}>Legis</div>
 	</div>
 	<a
 		class="github-fork-ribbon left-bottom"
@@ -109,6 +162,18 @@
 		flex-wrap: wrap;
 		padding-left: 2em;
 		padding-right: 2em;
+	}
+
+	.category {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.normies {
+		padding-right: 50px;
+	}
+	.legis {
+		padding-left: 50px;
 	}
 
 	@media (min-width: 640px) {
