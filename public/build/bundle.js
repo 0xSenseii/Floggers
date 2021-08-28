@@ -422,10 +422,10 @@ var app = (function () {
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
     			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$3, 22, 4, 446);
-    			add_location(p, file$3, 29, 4, 565);
+    			add_location(img, file$3, 22, 4, 445);
+    			add_location(p, file$3, 29, 4, 564);
     			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$3, 21, 0, 416);
+    			add_location(div, file$3, 21, 0, 415);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -468,7 +468,7 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
-    		Zero: "0.65",
+    		Zero: "0.5",
     		Bee: "0.11",
     		Cat: "0.099",
     		Dog: "0.095",
@@ -1141,25 +1141,25 @@ var app = (function () {
     			a1.textContent = "Show Normies";
     			t7 = space();
     			a2 = element("a");
-    			attr_dev(h1, "class", "svelte-3ktxnt");
+    			attr_dev(h1, "class", "svelte-14uh1c5");
     			add_location(h1, file, 97, 1, 1114);
-    			attr_dev(div0, "class", "cards svelte-3ktxnt");
+    			attr_dev(div0, "class", "cards svelte-14uh1c5");
     			add_location(div0, file, 98, 1, 1144);
-    			attr_dev(a0, "class", "legis svelte-3ktxnt");
+    			attr_dev(a0, "class", "legis svelte-14uh1c5");
     			attr_dev(a0, "href", "#");
     			add_location(a0, file, 113, 2, 1416);
-    			attr_dev(a1, "class", "normies svelte-3ktxnt");
+    			attr_dev(a1, "class", "normies svelte-14uh1c5");
     			attr_dev(a1, "href", "#");
     			add_location(a1, file, 116, 2, 1510);
-    			attr_dev(div1, "class", "category svelte-3ktxnt");
+    			attr_dev(div1, "class", "category svelte-14uh1c5");
     			add_location(div1, file, 112, 1, 1391);
-    			attr_dev(a2, "class", "github-fork-ribbon left-bottom svelte-3ktxnt");
+    			attr_dev(a2, "class", "github-fork-ribbon left-bottom svelte-14uh1c5");
     			attr_dev(a2, "href", "https://twitter.com/0xSensei");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "data-ribbon", "🐦 Twitter 🐦");
     			attr_dev(a2, "title", "Fork me on GitHub");
     			add_location(a2, file, 123, 1, 1623);
-    			attr_dev(main, "class", "svelte-3ktxnt");
+    			attr_dev(main, "class", "svelte-14uh1c5");
     			add_location(main, file, 96, 0, 1106);
     		},
     		l: function claim(nodes) {

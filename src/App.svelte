@@ -156,13 +156,6 @@
 		padding-left: 2em;
 		padding-right: 2em;
 	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-
 	.category {
 		margin-top: 100px;
 	}
@@ -178,5 +171,19 @@
 	}
 	.normies {
 		margin-left: 50px;
+	}
+
+	@media (max-width: 640px) {
+		main {
+			max-width: none;
+		}
+		.github-fork-ribbon {
+			opacity: 0%;
+		}
+		.category {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
 	}
 </style>
