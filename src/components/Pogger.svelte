@@ -1,17 +1,17 @@
 <script>
     const prices = {
-        Zero: "0.5",
-        Bee: "0.11",
+        Zero: "0.749",
+        Bee: "0.1",
         Cat: "0.099",
-        Dog: "0.085",
-        Elephant: "0.0889",
-        Frog: "0.089",
-        Llama: "0.1",
-        Mouse: "0.07",
-        Owl: "0.08",
-        RedPanda: "0.088",
-        Penguin: "0.1",
+        Dog: "0.0975",
+        Elephant: "0.088",
+        Frog: "0.088",
         Gorilla: "0.1",
+        Llama: "0.1",
+        Mouse: "0.088",
+        Owl: "0.09",
+        Penguin: "0.1",
+        RedPanda: "0.089",
         Turtle: "0.092",
     };
 

@@ -1,10 +1,10 @@
 <script>
     const prices = {
         AlienCat: "10",
-        BubblegumGorilla: "10",
+        BubblegumGorilla: "7.4971",
         DiamondOwl: "420.69",
         DriftwoodTurtle: "19.999",
-        FlamingRedPanda: "6.9",
+        FlamingRedPanda: "7",
         GoldenFrog: "15",
         IcePenguin: "4.2069",
         Jellophant: "18",
