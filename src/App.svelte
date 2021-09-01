@@ -122,7 +122,7 @@
 		>
 	</div>
 
-	<Wallet />
+	<!-- <Wallet /> -->
 
 	<a
 		class="github-fork-ribbon left-bottom"
