@@ -1,6 +1,6 @@
 <script>
     const prices = {
-        Zero: "0.65",
+        Zero: "0.55",
         Bee: "0.0.085",
         Cat: "0.079",
         Dog: "0.079",
