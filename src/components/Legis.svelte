@@ -11,7 +11,7 @@
         MarbleMouse: "5.55",
         RainbowLlama: "20",
         SilverBee: "14.99",
-        ZombieDog: "5",
+        ZombieDog: "5555,5",
     };
 
     export let legiName;
