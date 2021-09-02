@@ -1,18 +1,18 @@
 <script>
     const prices = {
         Zero: "0.55",
-        Bee: "0.0.085",
-        Cat: "0.079",
-        Dog: "0.079",
-        Elephant: "0.078",
-        Frog: "0.079",
-        Gorilla: "0.079",
-        Llama: "0.079",
-        Mouse: "0.079",
-        Owl: "0.08",
-        Penguin: "0.079",
+        Bee: "0.0.087",
+        Cat: "0.089",
+        Dog: "0.08",
+        Elephant: "0.07",
+        Frog: "0.0789",
+        Gorilla: "0.08",
+        Llama: "0.08",
+        Mouse: "0.075",
+        Owl: "0.088",
+        Penguin: "0.09",
         RedPanda: "0.078",
-        Turtle: "0.079",
+        Turtle: "0.078",
     };
 
     export let poggername;
