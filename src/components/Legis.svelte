@@ -6,7 +6,7 @@
         DriftwoodTurtle: "2000",
         FlamingRedPanda: "6",
         GoldenFrog: "10",
-        IcePenguin: "4.2069",
+        IcePenguin: "2.25",
         Jellophant: "18",
         MarbleMouse: "5.55",
         RainbowLlama: "20",
