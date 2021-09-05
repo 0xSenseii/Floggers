@@ -1,7 +1,7 @@
 <script>
     const prices = {
         Zero: "0.34",
-        Bee: "0.0.0799",
+        Bee: "0.0799",
         Cat: "0.049",
         Dog: "0.0488",
         Elephant: "0.063",
