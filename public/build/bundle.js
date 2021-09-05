@@ -422,10 +422,10 @@ var app = (function () {
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
     			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$4, 22, 4, 447);
-    			add_location(p, file$4, 29, 4, 566);
+    			add_location(img, file$4, 22, 4, 457);
+    			add_location(p, file$4, 29, 4, 576);
     			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$4, 21, 0, 417);
+    			add_location(div, file$4, 21, 0, 427);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -468,19 +468,19 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
-    		Zero: "0.5",
-    		Bee: "0.11",
-    		Cat: "0.099",
-    		Dog: "0.095",
-    		Elephant: "0.0889",
-    		Frog: "0.089",
-    		Llama: "0.1",
-    		Mouse: "0.07",
-    		Owl: "0.0888",
-    		RedPanda: "0.088",
-    		Penguin: "0.1",
-    		Gorilla: "0.1",
-    		Turtle: "0.092"
+    		Zero: "0.48",
+    		Bee: "0.0.08",
+    		Cat: "0.05",
+    		Dog: "0.0649",
+    		Elephant: "0.055",
+    		Frog: "0.0648",
+    		Gorilla: "0.057",
+    		Llama: "0.0649",
+    		Mouse: "0.069",
+    		Owl: "0.049",
+    		Penguin: "0.07",
+    		RedPanda: "0.065",
+    		Turtle: "0.0474"
     	};
 
     	let { poggername } = $$props;
@@ -679,10 +679,10 @@ var app = (function () {
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
     			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$2, 21, 4, 482);
-    			add_location(p, file$2, 22, 4, 560);
+    			add_location(img, file$2, 22, 4, 509);
+    			add_location(p, file$2, 23, 4, 587);
     			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$2, 20, 0, 452);
+    			add_location(div, file$2, 21, 0, 479);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -725,18 +725,19 @@ var app = (function () {
     	validate_slots('Legis', slots, []);
 
     	const prices = {
-    		AlienCat: "10",
-    		BubblegumGorilla: "10",
-    		DiamondOwl: "420.69",
-    		DriftwoodTurtle: "19.999",
-    		FlamingRedPanda: "6.9",
-    		GoldenFrog: "15",
-    		IcePenguin: "4.2069",
+    		Artemis: "15",
+    		AlienCat: "25",
+    		BubblegumGorilla: "2,5057",
+    		DiamondOwl: "420,69",
+    		DriftwoodTurtle: "4,999",
+    		FlamingRedPanda: "6",
+    		GoldenFrog: "10",
+    		IcePenguin: "300",
     		Jellophant: "18",
-    		MarbleMouse: "5.55",
+    		MarbleMouse: "4,205",
     		RainbowLlama: "20",
-    		SilverBee: "14.99",
-    		ZombieDog: "5"
+    		SilverBee: "14,99",
+    		ZombieDog: "5555,5"
     	};
 
     	let { legiName } = $$props;
@@ -811,7 +812,7 @@ var app = (function () {
     			p.textContent = "🥲 Donations welcomed 🥲";
     			t1 = space();
     			span = element("span");
-    			span.textContent = "0x4d86224cB1851A5D5df7acBD438201C9BaF9d765";
+    			span.textContent = "0x92c20F715472AAd2c7fc7284F0C2e4fAd39e28Af";
     			add_location(p, file$1, 4, 4, 45);
     			add_location(span, file$1, 5, 4, 81);
     			attr_dev(div, "class", "wallet svelte-1upbs3s");
@@ -1183,8 +1184,6 @@ var app = (function () {
     	let t5;
     	let a1;
     	let t7;
-    	let wallet;
-    	let t8;
     	let a2;
     	let current;
     	let mounted;
@@ -1200,7 +1199,6 @@ var app = (function () {
 
     	current_block_type_index = select_block_type(ctx);
     	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-    	wallet = new Wallet({ $$inline: true });
 
     	const block = {
     		c: function create() {
@@ -1220,8 +1218,6 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "Show Normies";
     			t7 = space();
-    			create_component(wallet.$$.fragment);
-    			t8 = space();
     			a2 = element("a");
     			attr_dev(h1, "class", "svelte-13q9qgr");
     			add_location(h1, file, 98, 1, 1164);
@@ -1240,7 +1236,7 @@ var app = (function () {
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "data-ribbon", "🐦 Twitter 🐦");
     			attr_dev(a2, "title", "Fork me on GitHub");
-    			add_location(a2, file, 126, 1, 1686);
+    			add_location(a2, file, 126, 1, 1695);
     			attr_dev(main, "class", "svelte-13q9qgr");
     			add_location(main, file, 97, 0, 1156);
     		},
@@ -1261,8 +1257,6 @@ var app = (function () {
     			append_dev(div1, t5);
     			append_dev(div1, a1);
     			append_dev(main, t7);
-    			mount_component(wallet, main, null);
-    			append_dev(main, t8);
     			append_dev(main, a2);
     			current = true;
 
@@ -1306,13 +1300,11 @@ var app = (function () {
     			if (current) return;
     			transition_in(head.$$.fragment, local);
     			transition_in(if_block);
-    			transition_in(wallet.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(head.$$.fragment, local);
     			transition_out(if_block);
-    			transition_out(wallet.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -1320,7 +1312,6 @@ var app = (function () {
     			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(main);
     			if_blocks[current_block_type_index].d();
-    			destroy_component(wallet);
     			mounted = false;
     			run_all(dispose);
     		}
