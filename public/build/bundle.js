@@ -422,10 +422,10 @@ var app = (function () {
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
     			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$4, 22, 4, 457);
-    			add_location(p, file$4, 29, 4, 576);
+    			add_location(img, file$4, 22, 4, 459);
+    			add_location(p, file$4, 29, 4, 578);
     			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$4, 21, 0, 427);
+    			add_location(div, file$4, 21, 0, 429);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -468,19 +468,19 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
-    		Zero: "0.48",
-    		Bee: "0.0.08",
-    		Cat: "0.05",
-    		Dog: "0.0649",
-    		Elephant: "0.055",
-    		Frog: "0.0648",
-    		Gorilla: "0.057",
+    		Zero: "0.34",
+    		Bee: "0.0.0799",
+    		Cat: "0.049",
+    		Dog: "0.0488",
+    		Elephant: "0.063",
+    		Frog: "0.049",
+    		Gorilla: "0.069",
     		Llama: "0.0649",
-    		Mouse: "0.069",
-    		Owl: "0.049",
-    		Penguin: "0.07",
-    		RedPanda: "0.065",
-    		Turtle: "0.0474"
+    		Mouse: "0.0643",
+    		Owl: "0.0489",
+    		Penguin: "0.049",
+    		RedPanda: "0.05",
+    		Turtle: "0.07"
     	};
 
     	let { poggername } = $$props;
@@ -889,7 +889,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (105:2) {:else}
+    // (108:2) {:else}
     function create_else_block(ctx) {
     	let each_1_anchor;
     	let current;
@@ -978,14 +978,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(105:2) {:else}",
+    		source: "(108:2) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (101:2) {#if !legistab}
+    // (104:2) {#if !legistab}
     function create_if_block(ctx) {
     	let each_1_anchor;
     	let current;
@@ -1074,14 +1074,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(101:2) {#if !legistab}",
+    		source: "(104:2) {#if !legistab}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (106:3) {#each legis as pog}
+    // (109:3) {#each legis as pog}
     function create_each_block_1(ctx) {
     	let legis_1;
     	let current;
@@ -1118,14 +1118,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(106:3) {#each legis as pog}",
+    		source: "(109:3) {#each legis as pog}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (102:3) {#each pogs as pog}
+    // (105:3) {#each pogs as pog}
     function create_each_block(ctx) {
     	let pogger;
     	let current;
@@ -1162,7 +1162,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(102:3) {#each pogs as pog}",
+    		source: "(105:3) {#each pogs as pog}",
     		ctx
     	});
 
@@ -1220,25 +1220,25 @@ var app = (function () {
     			t7 = space();
     			a2 = element("a");
     			attr_dev(h1, "class", "svelte-13q9qgr");
-    			add_location(h1, file, 98, 1, 1164);
+    			add_location(h1, file, 101, 1, 1193);
     			attr_dev(div0, "class", "cards svelte-13q9qgr");
-    			add_location(div0, file, 99, 1, 1194);
+    			add_location(div0, file, 102, 1, 1223);
     			attr_dev(a0, "class", "legis svelte-13q9qgr");
     			attr_dev(a0, "href", "#");
-    			add_location(a0, file, 114, 2, 1466);
+    			add_location(a0, file, 117, 2, 1495);
     			attr_dev(a1, "class", "normies svelte-13q9qgr");
     			attr_dev(a1, "href", "#");
-    			add_location(a1, file, 117, 2, 1560);
+    			add_location(a1, file, 120, 2, 1589);
     			attr_dev(div1, "class", "category svelte-13q9qgr");
-    			add_location(div1, file, 113, 1, 1441);
+    			add_location(div1, file, 116, 1, 1470);
     			attr_dev(a2, "class", "github-fork-ribbon left-bottom svelte-13q9qgr");
     			attr_dev(a2, "href", "https://twitter.com/0xSensei");
     			attr_dev(a2, "target", "_blank");
     			attr_dev(a2, "data-ribbon", "🐦 Twitter 🐦");
     			attr_dev(a2, "title", "Fork me on GitHub");
-    			add_location(a2, file, 126, 1, 1695);
+    			add_location(a2, file, 129, 1, 1724);
     			attr_dev(main, "class", "svelte-13q9qgr");
-    			add_location(main, file, 97, 0, 1156);
+    			add_location(main, file, 100, 0, 1185);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1350,6 +1350,7 @@ var app = (function () {
     	];
 
     	const legis = [
+    		{ name: "Artemis" },
     		{ name: "AlienCat" },
     		{ name: "BubblegumGorilla" },
     		{ name: "DiamondOwl" },

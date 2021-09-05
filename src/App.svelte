@@ -47,6 +47,9 @@
 	];
 	const legis = [
 		{
+			name: "Artemis",
+		},
+		{
 			name: "AlienCat",
 		},
 		{
