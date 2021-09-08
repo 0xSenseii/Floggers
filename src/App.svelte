@@ -112,11 +112,12 @@
 		{/if}
 	</div>
 
-	<!-- <Category legis={legistab} /> -->
-
 	<div class="category">
 		<a class="legis" href="#" on:click|preventDefault={() => showLegis()}
 			>Show Legis</a
+		>
+		<a class="blackhole" href="https://opensea.io/TheBlackHole"
+			>The Black Hole</a
 		>
 		<a
 			class="normies"
@@ -177,6 +178,10 @@
 	}
 	.normies {
 		margin-left: 50px;
+	}
+	.blackhole {
+		margin-left: 50px;
+		margin-right: 50px;
 	}
 
 	@media (max-width: 640px) {

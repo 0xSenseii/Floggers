@@ -4,14 +4,14 @@
         AlienCat: "25",
         BubblegumGorilla: "2",
         DiamondOwl: "420.69",
-        DriftwoodTurtle: "4,899",
+        DriftwoodTurtle: "4.899",
         FlamingRedPanda: "6",
         GoldenFrog: "10",
         IcePenguin: "300",
         Jellophant: "18",
         MarbleMouse: "4",
         RainbowLlama: "8.99",
-        SilverBee: "14,99",
+        SilverBee: "14.99",
         ZombieDog: "5555.5",
     };
 
