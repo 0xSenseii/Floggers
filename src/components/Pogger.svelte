@@ -2,7 +2,7 @@
     const prices = {
         Zero: "0.28",
         Bee: "0.08",
-        Cat: "0.077",
+        Cat: "0.045",
         Dog: "0.043",
         Elephant: "0.045",
         Frog: "0.043",

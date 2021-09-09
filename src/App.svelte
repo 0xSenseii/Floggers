@@ -2,7 +2,7 @@
 	import Pogger from "./components/Pogger.svelte";
 	import Head from "./components/Head.svelte";
 	import Legis from "./components/Legis.svelte";
-	import Wallet from "./components/Wallet.svelte";
+	// import Wallet from "./components/Wallet.svelte";
 	let pogs = [
 		{
 			name: "Zero",
