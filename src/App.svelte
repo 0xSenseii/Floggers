@@ -127,7 +127,9 @@
 	</div>
 
 	<!-- <Wallet /> -->
-
+	<div class="time">
+		<p>Last update 9/9 16:30 UTC</p>
+	</div>
 	<a
 		class="github-fork-ribbon left-bottom"
 		href="https://twitter.com/0xSensei"
@@ -182,6 +184,9 @@
 	.blackhole {
 		margin-left: 50px;
 		margin-right: 50px;
+	}
+	.time {
+		margin-top: 50px;
 	}
 
 	@media (max-width: 640px) {

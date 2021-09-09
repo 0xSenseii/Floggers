@@ -422,10 +422,10 @@ var app = (function () {
     			attr_dev(img, "width", "130");
     			attr_dev(img, "height", "130");
     			attr_dev(img, "class", "svelte-28k9d1");
-    			add_location(img, file$4, 22, 4, 451);
-    			add_location(p, file$4, 29, 4, 570);
+    			add_location(img, file$4, 22, 4, 452);
+    			add_location(p, file$4, 29, 4, 571);
     			attr_dev(div, "class", "cards__item svelte-28k9d1");
-    			add_location(div, file$4, 21, 0, 421);
+    			add_location(div, file$4, 21, 0, 422);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -468,19 +468,19 @@ var app = (function () {
     	validate_slots('Pogger', slots, []);
 
     	const prices = {
-    		Zero: "0.35",
+    		Zero: "0.28",
     		Bee: "0.08",
     		Cat: "0.077",
-    		Dog: "0.058",
-    		Elephant: "0.029",
-    		Frog: "0.029",
-    		Gorilla: "0.079",
-    		Llama: "0.0499",
-    		Mouse: "0.04",
-    		Owl: "0.04",
-    		Penguin: "0.04",
-    		RedPanda: "0.029",
-    		Turtle: "0.029"
+    		Dog: "0.043",
+    		Elephant: "0.045",
+    		Frog: "0.043",
+    		Gorilla: "0.039",
+    		Llama: "0.04",
+    		Mouse: "0.045",
+    		Owl: "0.039",
+    		Penguin: "0.045",
+    		RedPanda: "0.043",
+    		Turtle: "0.045"
     	};
 
     	let { poggername } = $$props;
@@ -1186,6 +1186,9 @@ var app = (function () {
     	let t7;
     	let a2;
     	let t9;
+    	let div2;
+    	let p;
+    	let t11;
     	let a3;
     	let current;
     	let mounted;
@@ -1223,29 +1226,36 @@ var app = (function () {
     			a2 = element("a");
     			a2.textContent = "Show Normies";
     			t9 = space();
+    			div2 = element("div");
+    			p = element("p");
+    			p.textContent = "Last update 9/9 16:30 UTC";
+    			t11 = space();
     			a3 = element("a");
-    			attr_dev(h1, "class", "svelte-1cdpwn9");
+    			attr_dev(h1, "class", "svelte-wgb76c");
     			add_location(h1, file, 101, 1, 1193);
-    			attr_dev(div0, "class", "cards svelte-1cdpwn9");
+    			attr_dev(div0, "class", "cards svelte-wgb76c");
     			add_location(div0, file, 102, 1, 1223);
-    			attr_dev(a0, "class", "legis svelte-1cdpwn9");
+    			attr_dev(a0, "class", "legis svelte-wgb76c");
     			attr_dev(a0, "href", "#");
     			add_location(a0, file, 115, 2, 1454);
-    			attr_dev(a1, "class", "blackhole svelte-1cdpwn9");
+    			attr_dev(a1, "class", "blackhole svelte-wgb76c");
     			attr_dev(a1, "href", "https://opensea.io/TheBlackHole");
     			add_location(a1, file, 118, 2, 1548);
-    			attr_dev(a2, "class", "normies svelte-1cdpwn9");
+    			attr_dev(a2, "class", "normies svelte-wgb76c");
     			attr_dev(a2, "href", "#");
     			add_location(a2, file, 121, 2, 1636);
-    			attr_dev(div1, "class", "category svelte-1cdpwn9");
+    			attr_dev(div1, "class", "category svelte-wgb76c");
     			add_location(div1, file, 114, 1, 1429);
-    			attr_dev(a3, "class", "github-fork-ribbon left-bottom svelte-1cdpwn9");
+    			add_location(p, file, 130, 2, 1791);
+    			attr_dev(div2, "class", "time svelte-wgb76c");
+    			add_location(div2, file, 129, 1, 1770);
+    			attr_dev(a3, "class", "github-fork-ribbon left-bottom svelte-wgb76c");
     			attr_dev(a3, "href", "https://twitter.com/0xSensei");
     			attr_dev(a3, "target", "_blank");
     			attr_dev(a3, "data-ribbon", "🐦 Twitter 🐦");
     			attr_dev(a3, "title", "Fork me on GitHub");
-    			add_location(a3, file, 130, 1, 1771);
-    			attr_dev(main, "class", "svelte-1cdpwn9");
+    			add_location(a3, file, 132, 1, 1833);
+    			attr_dev(main, "class", "svelte-wgb76c");
     			add_location(main, file, 100, 0, 1185);
     		},
     		l: function claim(nodes) {
@@ -1267,6 +1277,9 @@ var app = (function () {
     			append_dev(div1, t7);
     			append_dev(div1, a2);
     			append_dev(main, t9);
+    			append_dev(main, div2);
+    			append_dev(div2, p);
+    			append_dev(main, t11);
     			append_dev(main, a3);
     			current = true;
 
