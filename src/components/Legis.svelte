@@ -2,9 +2,9 @@
     const prices = {
         Artemis: "15",
         AlienCat: "25",
-        BubblegumGorilla: "2",
+        BubblegumGorilla: "1.5",
         DiamondOwl: "420.69",
-        DriftwoodTurtle: "4.899",
+        DriftwoodTurtle: "4.9999",
         FlamingRedPanda: "6",
         GoldenFrog: "10",
         IcePenguin: "300",
