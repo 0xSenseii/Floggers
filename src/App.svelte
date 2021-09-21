@@ -128,7 +128,7 @@
 
 	<!-- <Wallet /> -->
 	<div class="time">
-		<p>Last update 9/14 16:49 UTC</p>
+		<p>Last update 9/21 16:23 UTC</p>
 	</div>
 	<a
 		class="github-fork-ribbon left-bottom"
