@@ -1,6 +1,6 @@
 <script>
     const prices = {
-        Artemis: "None for sale",
+        Artemis: "None",
         AlienCat: "25",
         BubblegumGorilla: "5",
         DiamondOwl: "2.5",
